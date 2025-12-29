@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+pillow
+numpy
+# CPU only torch (Boyut tasarrufu için kritik)
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
